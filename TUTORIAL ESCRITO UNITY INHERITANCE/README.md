@@ -86,6 +86,6 @@ public class smartPhones : MonoBehaviour {
 
 ## References
 
-[Reference 1:](https://docs.unity3d.com/Manual/index.html)
-[Reference 2:](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/inheritance)
+1. [Unity 3D](https://docs.unity3d.com/Manual/index.html)
+2. [Microsoft Docs on C#](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/inheritance)
 
