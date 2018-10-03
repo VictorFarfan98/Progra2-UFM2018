@@ -31,10 +31,8 @@ public class Phone {                // This is the base/parent class
 using UnityEngine;
 using System.Collections;
 
-public class {
-    public string color;
-
-    public Phone(){             // This is the first constructor for the Fruit class and is not inherited by any derived classes.
+public class iPhone:Phone{
+    public Phone(){             // This is the first constructor for the Phone class and is not inherited by any derived classes.
     color = "Jet Black";           // Here, the attribute 'color' has been inherited to the object and is given a value "Jet Black"
     Debug.Log("1st Phone Constructor Called");
     }
@@ -74,7 +72,7 @@ public class smartPhones : MonoBehaviour {
         Debug.Log("Creating the iPhone");
         iPhone = new smartPhone("Blue");
         Debug.Log("Creating the iPhoneX");
-        IphoneX = new iPhone("Rose Gold");
+        iPhoneX = new iPhone("Rose Gold");
 
     }
 }
